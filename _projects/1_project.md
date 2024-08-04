@@ -30,7 +30,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid path="assets/img/site_analysis1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/site.analysis2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/site_analysis2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
