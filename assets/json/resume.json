@@ -56,6 +56,17 @@
       "summary": "",
       "highlights": ["Develop a pipeline to facilitate real-time air quality analysis and mapping using ArcGIS Velocity and Online Notebook",
                     "Design a public-facing app using ArcGIS Dashboard and Experience Builder to enable mobile phone users to understand different levels of air pollution exposure"]
+    },
+    {
+      "name": "UC Berkeley",
+      "position": "Graduate Student Researcher",
+      "url": "",
+      "startDate": "2024-05-18",
+      "endDate": "2021-01-01",
+      "summary": "",
+      "highlights": ["Lead and supervise 2 undergraduate research assistants on data processing tasks and the creation of a public-facing app",
+                    "Co-develop a pipeline using Python and GEE to investigate the statistical and seasonal correlation between air pollution and surface temperature among 50+ major U.S. cities",
+                    "Create a pipeline to analyze and aggregate the monthly temperature and PM2.5 data acquired from ground sensors and provide a customized report monthly to inform Stockton communities about their exposure to heat and air pollution"]
     }
   ],
   "work": [
