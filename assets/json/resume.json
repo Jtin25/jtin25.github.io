@@ -3,14 +3,14 @@
     "name": "Justin Tse",
     "label": "Graduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "j_tse@berkeley.edu",
+    "phone": "(805) 971-9663",
+    "url": "https://jtin25.github.io/",
     "summary": "A landscape architecture dedicated to leveraging geospatial science to create a healthy, equitable, and sustainable urban environment",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "3350 Ariel Joshua Ct",
+      "postalCode": "CA 95135",
+      "city": "San Jose",
       "countryCode": "US",
       "region": "California"
     },
@@ -24,15 +24,26 @@
   },
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "University of California,Berkeley",
+      "location": "Berkeley, California",
+      "url": "",
+      "area": "Landscape Architecture & Environmental Planning",
+      "studyType": "Master of Landscape Architecture",
+      "startDate": "2023-08-21",
+      "endDate": "2025-05-16",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Applied Remote Sensing", "Quantitative Methods in Environmental Planning", "Geographic Information Science", "Environmental Planning Studio"]
+    },
+    {
+      "institution": "University of California, Santa Barbara",
+      "location": "Santa Barbara, California",
+      "url": "",
+      "area": "Environmental Studies",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2021-09-21",
+      "endDate": "2023-06-16",
+      "score": "10",
+      "courses": ["Environmental Impact Analysis", "Economic Geography", "Climate Change Law", "Environmental Planning Studio"]
     }
   ],
   "work": [
