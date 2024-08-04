@@ -52,7 +52,7 @@
       "position": "Graduate Student Researcher",
       "url": "",
       "startDate": "2024-05-18",
-      "endDate": "2021-01-01",
+      "endDate": "Present",
       "summary": "",
       "highlights": ["Develop a pipeline to facilitate real-time air quality analysis and mapping using ArcGIS Velocity and Online Notebook",
                     "Design a public-facing app using ArcGIS Dashboard and Experience Builder to enable mobile phone users to understand different levels of air pollution exposure"]
@@ -62,11 +62,33 @@
       "position": "Graduate Student Researcher",
       "url": "",
       "startDate": "2024-05-18",
-      "endDate": "2021-01-01",
+      "endDate": "Present",
       "summary": "",
       "highlights": ["Lead and supervise 2 undergraduate research assistants on data processing tasks and the creation of a public-facing app",
                     "Co-develop a pipeline using Python and GEE to investigate the statistical and seasonal correlation between air pollution and surface temperature among 50+ major U.S. cities",
                     "Create a pipeline to analyze and aggregate the monthly temperature and PM2.5 data acquired from ground sensors and provide a customized report monthly to inform Stockton communities about their exposure to heat and air pollution"]
+    },
+    {
+      "name": "UCSB Sustainability",
+      "position": "Graduate Student Researcher",
+      "url": "",
+      "startDate": "2023-03-01",
+      "endDate": "2023-09-30",
+      "summary": "",
+      "highlights": ["Analyzed the campus-wide survey to identify and synthesize housing and food insecurity trends, correlations, and variations across AANHPI communities",
+                    "Conducted, transcribed, and coded 10 interviews to collect qualitative data on AANHPI student experience regarding commuting and campus basic needs services",
+                    "Work collectively with other researchers to develop a policy brief and brainstorm ideas to advise the task force on supporting AANHPI students in basic needs efforts"]
+    },
+    {
+      "name": "UC Santa Barbara",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-01",
+      "summary": "",
+      "highlights": ["Collected and analyzed data from sources, collection, and databases to facilitate in-depth research on ocean equity and Chumash Heritage National Marine Sanctuary",
+                    "Assisted with the oral history project by conducting literature reviews and transcribing interviews with the Chumash community",
+                    "Attended relevant seminars, lectures, and events to collect qualitative data from different stakeholders"]
     }
   ],
   "work": [
@@ -76,8 +98,29 @@
       "url": "",
       "startDate": "2024-07-08",
       "endDate": "Present",
-      "summary": "work 1",
+      "summary": "",
       "highlights": []
+    },
+    {
+      "name": "Center for Creative Land Recycling",
+      "position": "Communications Intern",
+      "url": "",
+      "startDate": "2023-11-11",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": ["Responsible for multimedia content creation through drafting newsletters and editing the official website regularly to maintain content consistency and quality, and to deliver timely information for effective external communication",
+                    "Create 2 to 3 videos and multiple educational materials monthly to promote brownfield redevelopment and engagement"]
+    },
+    {
+      "name": "UC Berkeley",
+      "position": "Cal Zero Waste Project Coordinator",
+      "url": "",
+      "startDate": "2023-12-18",
+      "endDate": "2023-05-16",
+      "summary": "",
+      "highlights": ["Spearhead the deployment of reusables across the campus community by delegating respective tasks to staff associates and coordinating with food ware providers, university staff, and the City of Berkeley",
+                    "Assist with dishwashing capacity research on campus to identify potential sites for dishwasher deployment",
+                    "Develop strategic plans and schemes collectively to promote the implementation of zero-waste projects and enhance their operations"]
     }
   ],
   "volunteer": [
@@ -103,7 +146,7 @@
   ],
   "certificates": [
     {
-      "name": "Graduate Certificate in Geographic Information Science and Technology",
+      "name": "Graduate Certificate in GIST",
       "date": "2025-05-01",
       "issuer": "UC Berkeley",
       "url": "",
