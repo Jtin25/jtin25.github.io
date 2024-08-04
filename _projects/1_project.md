@@ -1,17 +1,16 @@
 ---
 layout: page
 title: LA 200 Studio Project
-description: with background image
-img: assets/img/12.jpg
+description: Strawberry Creek
+img: assets/img/title.jpg
 importance: 1
 category: school
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This fundamental studio class aims to cultivate our design lens and instill fundamental landscape design principles. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+My final design product is dedicated to helping users of this space to increase their sense of the creek through the construction of formal and informal space, stormwater infrastructure, and a time-sensitive scenery.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/title.jpg" title="cover page" class="img-fluid rounded z-depth-1" %}
@@ -21,26 +20,21 @@ To give your project a background in the portfolio page, just add the img tag to
     My first studio project at UC Berkeley
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The project began with a collective site analysis of Strawberry Creek. Our group was interested in comparing people's perception of the creek based on different body senses, iincluding visual, thermal, and hearing senses.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/site_analysis1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/site_analysis1.jpg" title="site analysis (before)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/site_analysis2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/site_analysis2.jpg" title="site analysis (after)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Creek perception comparison: existing condition (left) | aster plan (right)
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+In the following phases, I contiuned using creek perception as the central theme and developed iterative ideas through shadow constructions.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -51,5 +45,24 @@ Here's the code for the last row of images above:
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Explanatory Graphic (left) | Site Plan (right)
+</div>
+
+Finally, three sections and renderings were digitially made to illustrate the project.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sections.jpg" title="sections" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Project Sections
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/rendering.jpg" title="renderings" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Project Renderings
 </div>
