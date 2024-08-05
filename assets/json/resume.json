@@ -6,7 +6,7 @@
     "email": "j_tse@berkeley.edu",
     "phone": "(805) 971-9663",
     "url": "https://jtin25.github.io/",
-    "summary": "A landscape architecture dedicated to leveraging geospatial science to create a healthy, equitable, and sustainable urban environment",
+    "summary": "A landscape architecture student dedicated to leveraging geospatial science to create a healthy, equitable, and sustainable urban environment",
     "location": {
       "address": "3350 Ariel Joshua Ct",
       "postalCode": "CA 95135",
@@ -188,15 +188,6 @@
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
     }
   ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "url": "",
-      "summary": ""
-    }
-  ],
   "certificates": [
     {
       "name": "Graduate Certificate in GIST",
@@ -211,15 +202,6 @@
       "issuer": "GBCI",
       "url": "",
       "icon": "fa-solid fa-tag"
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
     }
   ],
   "skills": [
