@@ -121,18 +121,71 @@
       "highlights": ["Spearhead the deployment of reusables across the campus community by delegating respective tasks to staff associates and coordinating with food ware providers, university staff, and the City of Berkeley",
                     "Assist with dishwashing capacity research on campus to identify potential sites for dishwasher deployment",
                     "Develop strategic plans and schemes collectively to promote the implementation of zero-waste projects and enhance their operations"]
+    },
+    {
+      "name": "Environmental Defense Fund",
+      "position": "OCS Mandarin Book Drafting Intern",
+      "url": "",
+      "startDate": "2023-06-18",
+      "endDate": "2023-08-28",
+      "summary": "",
+      "highlights": ["Summarized and translated the methodology and findings of methane emission analysis projects and research into Chinese",
+                    "Ideated and developed infographics, diagrams, maps, and illustrations using Adobe Creative Suite to enhance visual clarity and the efficiency of content delivery",
+                    "Developed a book template on Microsoft Word to streamline the formatting process"]
+    },
+    {
+      "name": "Wine To Water",
+      "position": "Marketing Intern",
+      "url": "",
+      "startDate": "2023-01-17",
+      "endDate": "2023-04-21",
+      "summary": "",
+      "highlights": ["Researched and analyzed WTW's audiences, social media engagement, public image, and market to gather market information",
+                    "Created marketing materials including short videos, reels, graphics, and manuals to increase social media presence and disseminate information to stakeholders",
+                    "Assisted with marketing project management and digital asset management to enhance project efficiency and content accessibility"]
+    },
+    {
+      "name": "Don't Cage Our Ocean",
+      "position": "Media Coordinator",
+      "url": "",
+      "startDate": "2023-10-10",
+      "endDate": "2023-02-23",
+      "summary": "",
+      "highlights": ["Developed strategic plans and identified media to connect with to increase community engagement and expand the campaign",
+                    "Coordinated volunteer events and activities, including petitioning and phone-banking",
+                    "Participated in community events to engage with stakeholders and educate them about the social and environmental impacts of aquaculture"]
+    },
+    {
+      "name": "U.S. Green Chamber of Commerce",
+      "position": "Research and Communication Intern",
+      "url": "",
+      "startDate": "2023-07-10",
+      "endDate": "2023-12-17",
+      "summary": "",
+      "highlights": ["Curated online content for the Global Climate Pledge project to promote the project and enhance environmental awareness",
+                    "Managed social media accounts and developed strategic plans to increase content reach",
+                    "Identified and communicated with potential partners to establish partnerships"]
+    },
+    {
+      "name": "UCSB Your Childre's Tree",
+      "position": "Urban Forestry Restoration Intern",
+      "url": "",
+      "startDate": "2022-06-16",
+      "endDate": "2022-09-21",
+      "summary": "",
+      "highlights": ["Conducted weekly tree assessments for 50+ trees to inspect tree health and remedy potential threats ",
+                    "Assisted with other native species and forest restoration projects at YCT to expedite the North Campus Open Space Project"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Humanitarian OpenStreetMap Team",
+      "location": "Remote",
+      "position": "Mapping Volunteer",
+      "url": "",
+      "startDate": "2022-010-01",
+      "endDate": "2023-05-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
     }
   ],
   "awards": [
@@ -212,11 +265,11 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Environmental Health",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing"
+        "Urban Heat Island",
+        "Air Quality"
       ]
     }
   ],
@@ -230,16 +283,6 @@
       "name": "Professor Kristina Hill",
       "icon": "fa-solid fa-thumbtack",
       "reference": ""
-    }
-  ],
-  "projects": [
-    {
-      "name": "",
-      "summary": "",
-      "highlights": [],
-      "startDate": "",
-      "endDate": "",
-      "url": ""
     }
   ]
 }
