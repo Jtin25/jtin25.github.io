@@ -42,7 +42,7 @@ var LST_scaled = LST.map(LSTScaleFactors);
 }
 ```
 ### Applying Bitmask
-To enhance the accuracy and robustness of the analysis, we employ a bitmask function provided by Spatial Thoughts to filter out low-quality pixels. This step helps in mitigating the impact of data anomalies. However, since we will be using the mean value of each image for plotting the time series, this step may be optional as averaging can naturally reduce the influence of outliers. The original blog can be found here:https://spatialthoughts.com/2021/08/19/qa-bands-bitmasks-gee/.
+To enhance the accuracy and robustness of the analysis, we employ a bitmask function provided by Spatial Thoughts to filter out low-quality pixels. This step helps in mitigating the impact of data anomalies. However, since we will be using the mean value of each image for plotting the time series, this step may be optional as averaging can naturally reduce the influence of outliers. The original blog can be found here: <a href="https://spatialthoughts.com/2021/08/19/qa-bands-bitmasks-gee/">https://spatialthoughts.com/2021/08/19/qa-bands-bitmasks-gee/</a>.
 ```javascript
 var bitwiseExtract = function(input, fromBit, toBit) {
   var maskSize = ee.Number(1).add(toBit).subtract(fromBit)
