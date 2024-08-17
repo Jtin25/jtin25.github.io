@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Land surface temperature time series analysis
+title: Land Surface Temperature Time Series Analysis
 date: 2024-08-05 15:09:00
 description: an example of a blog post with some code
 tags: formatting code
@@ -23,6 +23,7 @@ var YEAR_RANGE = ee.Filter.calendarRange(2013, 2023, 'year');
 Map.addLayer(aoi,'', 'aoi');
 Map.centerObject(aoi, 10);
 ```
+
 ### Loading and Rescaling Collection
 We use the MODIS Terra Land Surface Temperature and Emissivity product, which offers high temporal resolution (daily data) and includes both daytime and nighttime surface temperature measurements. Before conducting any analysis, it is crucial to apply the appropriate scale factor to the data, making the values comprehensible and comparable. In this case, the scale factor is 0.02, which converts the temperature data from its original unit to Kelvin. Subsequently, we subtract a constant to convert the temperature from Kelvin to Celsius. Detailed information about the band descriptions can be found in the GGE data catalog.
 ```javascript
@@ -41,6 +42,7 @@ function LSTScaleFactors(image) {
 var LST_scaled = LST.map(LSTScaleFactors);
 }
 ```
+
 ### Applying Bitmask
 To enhance the accuracy and robustness of the analysis, we employ a bitmask function provided by Spatial Thoughts to filter out low-quality pixels. This step helps in mitigating the impact of data anomalies. However, since we will be using the mean value of each image for plotting the time series, this step may be optional as averaging can naturally reduce the influence of outliers. The original blog can be found here: <a href="https://spatialthoughts.com/2021/08/19/qa-bands-bitmasks-gee/">https://spatialthoughts.com/2021/08/19/qa-bands-bitmasks-gee/</a>.
 ```javascript
@@ -107,7 +109,4 @@ print(chart)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/timeSeries.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
 </div>

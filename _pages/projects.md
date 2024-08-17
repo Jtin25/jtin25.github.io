@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Example student projects.
+description: Student project gallery. Project titles with * are group projects.
 nav: true
 nav_order: 3
 display_categories: [school, fun]

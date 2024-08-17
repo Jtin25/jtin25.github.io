@@ -26,7 +26,7 @@
     {
       "institution": "University of California,Berkeley",
       "location": "Berkeley, California",
-      "url": "",
+      "url": "https://ced.berkeley.edu/land",
       "area": "Landscape Architecture & Environmental Planning",
       "studyType": "Master of Landscape Architecture",
       "startDate": "2023-08-21",
@@ -37,13 +37,24 @@
     {
       "institution": "University of California, Santa Barbara",
       "location": "Santa Barbara, California",
-      "url": "",
+      "url": "https://es.ucsb.edu/",
       "area": "Environmental Studies",
       "studyType": "Bachelor of Arts",
       "startDate": "2021-09-21",
       "endDate": "2023-06-16",
       "score": "10",
       "courses": ["Environmental Impact Analysis", "Economic Geography", "Climate Change Law", "Environmental Planning Studio"]
+    },
+    {
+      "institution": "Edmonds College",
+      "location": "Lynnwood, Washington",
+      "url": "https://www.edmonds.edu/",
+      "area": "",
+      "studyType": "Associate of Arts",
+      "startDate": "2019-09-21",
+      "endDate": "2021-06-16",
+      "score": "10",
+      "courses": []
     }
   ],
   "research": [
@@ -59,7 +70,7 @@
     },
     {
       "name": "UC Berkeley",
-      "position": "Graduate Student Researcher",
+      "position": "Undergraduate Student Researcher",
       "url": "",
       "startDate": "2024-05-18",
       "endDate": "Present",
@@ -148,8 +159,8 @@
       "name": "Don't Cage Our Ocean",
       "position": "Media Coordinator",
       "url": "",
-      "startDate": "2023-10-10",
-      "endDate": "2023-02-23",
+      "startDate": "2022-10-10",
+      "endDate": "2022-02-23",
       "summary": "",
       "highlights": ["Developed strategic plans and identified media to connect with to increase community engagement and expand the campaign",
                     "Coordinated volunteer events and activities, including petitioning and phone-banking",
@@ -159,8 +170,8 @@
       "name": "U.S. Green Chamber of Commerce",
       "position": "Research and Communication Intern",
       "url": "",
-      "startDate": "2023-07-10",
-      "endDate": "2023-12-17",
+      "startDate": "2022-07-10",
+      "endDate": "2022-12-17",
       "summary": "",
       "highlights": ["Curated online content for the Global Climate Pledge project to promote the project and enhance environmental awareness",
                     "Managed social media accounts and developed strategic plans to increase content reach",
@@ -185,7 +196,16 @@
       "url": "",
       "startDate": "2022-010-01",
       "endDate": "2023-05-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
+      "summary": ""
+    },
+    {
+      "organization": "UCSB CALPIRG",
+      "location": "Santa Barbara",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2021-09-01",
+      "endDate": "2022-06-01",
+      "summary": ""
     }
   ],
   "certificates": [
@@ -226,6 +246,24 @@
         "Adobe Indesign",
         "Canva"
       ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Javascript",
+        "Python",
+        "R"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "FME"
+      ]
     }
   ],
   "languages": [
@@ -252,6 +290,15 @@
       "keywords": [
         "Urban Heat Island",
         "Air Quality"
+      ]
+    },
+    {
+      "name": "Environmental Planning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "EIR",
+        "GIS",
+        "Climate Resilience"
       ]
     }
   ],
