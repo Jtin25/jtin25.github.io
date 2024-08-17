@@ -58,10 +58,16 @@ module ExternalPosts
 
     def fetch_from_urls(site, src)
       src['posts'].each do |post|
-        puts "...fetching #{post['url']}"
-        content = fetch_content_from_url(post['url'])
+        url = post['url']
+        if url.nil? || url.strip.empty?
+          puts "Skipping post with empty or nil URL: #{post.inspect}"
+          next
+        end
+
+        puts "...fetching #{url}"
+        content = fetch_content_from_url(url)
         content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content)
+        create_document(site, src['name'], url, content)
       end
     end
 
@@ -77,6 +83,14 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
+      # Validate the URL
+      unless url =~ /\A#{URI::regexp(['http', 'https'])}\z/
+        raise ArgumentError, "Invalid URL: #{url}"
+      end
+
+      puts "Fetching content from URL: #{url}"
+      
+      # Fetch the HTML content
       html = HTTParty.get(url).body
       parsed_html = Nokogiri::HTML(html)
 
@@ -88,7 +102,6 @@ module ExternalPosts
         title: title,
         content: body_content,
         summary: description
-        # Note: The published date is now added in the fetch_from_urls method.
       }
     end
 
