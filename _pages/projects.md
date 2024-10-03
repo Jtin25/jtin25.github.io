@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Student project gallery. Project titles with * are group projects.
+description: Welcome to the project gallery. Projects titled with * are group projects. A special thanks to those who worked with me to produce this amazing work, especially the EP students.
 nav: true
 nav_order: 3
 display_categories: [school, fun]
